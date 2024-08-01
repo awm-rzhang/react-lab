@@ -13,6 +13,7 @@ export default defineConfig({
   },
   base: "/react-lab/",
   optimizeDeps: {
+    include: ["linked-dep"],
     esbuildOptions: {
       plugins: [
         esbuildCommonjs([
