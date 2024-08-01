@@ -14,7 +14,13 @@ export default defineConfig({
   base: "/react-lab/",
   optimizeDeps: {
     esbuildOptions: {
-      plugins: [esbuildCommonjs(["react-calendar", "react-date-picker"])],
+      plugins: [
+        esbuildCommonjs([
+          "react-calendar",
+          "react-date-picker",
+          "cron-schedule-parser",
+        ]),
+      ],
     },
   },
 });
