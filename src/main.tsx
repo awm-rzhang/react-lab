@@ -8,26 +8,29 @@ import { routes } from "./routes/routes";
 import ReactJsCron from "./routes/reactJsCron";
 import ReactCronSchedule from "./routes/reactCronSchedule";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    children: [
-      {
-        path: routes.RECURRENCE.REACT_JS_CRON.url,
-        element: <ReactJsCron />,
-      },
-      {
-        path: routes.RECURRENCE.REACT_CRON_SCHEDULE.url,
-        element: <ReactCronSchedule />,
-      },
-      {
-        path: routes.RECURRENCE.REACT_RRULE_GENERATOR.url,
-        element: <Recurrence />,
-      },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      children: [
+        {
+          path: routes.RECURRENCE.REACT_JS_CRON.url,
+          element: <ReactJsCron />,
+        },
+        {
+          path: routes.RECURRENCE.REACT_CRON_SCHEDULE.url,
+          element: <ReactCronSchedule />,
+        },
+        {
+          path: routes.RECURRENCE.REACT_RRULE_GENERATOR.url,
+          element: <Recurrence />,
+        },
+      ],
+    },
+  ],
+  { basename: "/react-lab/" }
+);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
