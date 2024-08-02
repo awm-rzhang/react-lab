@@ -5,16 +5,20 @@ const packages = [
     name: "react cron schedule",
     demoUrl: "https://fahimkk.github.io/react-recurring-job-demo/",
     comment:
-      "- having some deployment issue \
-      \n- hello",
+      " - having some deployment issue \
+      \n o generate cron expression \
+      \n \
+      ",
   },
   {
     name: "react rrule generator",
     demoUrl: "https://fafruch.github.io/react-rrule-generator/",
     comment:
-      "- need to convert to cron expression \
-    \n- not being maintained \
-    \n- depends on deprecated moment.js",
+      " - need to convert to cron expression \
+    \n xx not being maintained \
+    \n x depends on deprecated moment.js \
+    \n \
+    ",
   },
 ];
 
