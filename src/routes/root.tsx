@@ -50,7 +50,7 @@ const Root = () => {
                   <ListItem
                     key={`sub-menu-${route.name}`}
                     className="bg-slate-400"
-                    href={route.url}
+                    href={`/#/${route.url}`}
                     title={route.name}
                   />
                 ))}
