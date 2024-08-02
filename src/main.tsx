@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom/client";
 import Root from "./routes/root";
-import "./index.css";
+import "@/index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import React from "react";
-import Recurrence from "./routes/recurrence";
+import Recurrence from "@/routes/recurrence/more";
 import { routes } from "./routes/routes";
-import ReactJsCron from "./routes/reactJsCron";
+import ReactJsCron from "@/routes/recurrence/reactJsCron";
 
 const router = createHashRouter([
   {
@@ -14,7 +14,6 @@ const router = createHashRouter([
     children: [
       {
         path: routes.RECURRENCE.REACT_JS_CRON.url,
-
         element: <ReactJsCron />,
       },
       {

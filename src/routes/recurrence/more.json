@@ -1,0 +1,50 @@
+[
+    {
+        "name": "react cron schedule",
+        "demoUrl": "https://fahimkk.github.io/react-recurring-job-demo/",
+        "comments": [
+            "💚 generate cron expression",
+            "😐 having some deployment issue",
+            "😐 no TypeScript"
+        ]
+    },
+    {
+        "name": "react rrule generator",
+        "demoUrl": "https://fafruch.github.io/react-rrule-generator/",
+        "comments": [
+            "💚 clean",
+            "😐 need to convert to cron expression",
+            "🔴 depends on deprecated moment.js",
+            "🔴 not being maintained"
+        ]
+    },
+    {
+        "name": "react cron generator",
+        "demoUrl": "https://sojinantony01.github.io/react-cron-generator/",
+        "comments": [
+            "💚 generate cron expression",
+            "💚 well maintained",
+            "💚 TypeScript"
+        ]
+    },
+    {
+        "name": "react js cron",
+        "demoUrl": "https://xrutayisire.github.io/react-js-cron/?path=/story/reactjs-cron--demo",
+        "comments": [
+            "💚 generate cron expression",
+            "💚 clean",
+            "💚 TypeScript",
+            "😐 the 'and' option in yearly and monthly can be confusing, but we might be able to hide it"
+        ]
+    },
+    {
+        "name": "react recurrence",
+        "demoUrl": "https://ziadadeela.github.io/react-recurrence/",
+        "comments": [
+            "💚 support layout customization",
+            "💚 TypeScript",
+            "😐 last update was 2 years ago",
+            "😐 need to convert to cron expression"
+        ]
+    }
+]

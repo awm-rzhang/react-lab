@@ -59,7 +59,7 @@ const Root = () => {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <div className="w-fit mx-auto pt-2">
+      <div className="w-full mx-auto pt-2">
         <Outlet />
       </div>
     </>
