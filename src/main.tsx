@@ -6,7 +6,6 @@ import React from "react";
 import Recurrence from "./routes/recurrence";
 import { routes } from "./routes/routes";
 import ReactJsCron from "./routes/reactJsCron";
-import ReactCronSchedule from "./routes/reactCronSchedule";
 
 const router = createBrowserRouter(
   [
@@ -19,11 +18,7 @@ const router = createBrowserRouter(
           element: <ReactJsCron />,
         },
         {
-          path: routes.RECURRENCE.REACT_CRON_SCHEDULE.url,
-          element: <ReactCronSchedule />,
-        },
-        {
-          path: routes.RECURRENCE.REACT_RRULE_GENERATOR.url,
+          path: routes.RECURRENCE.MORE.url,
           element: <Recurrence />,
         },
       ],

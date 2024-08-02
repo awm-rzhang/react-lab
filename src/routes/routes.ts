@@ -4,13 +4,9 @@ export const routes = {
       url: "react-js-cron",
       name: "react-js-cron",
     },
-    REACT_CRON_SCHEDULE: {
-      url: "react-cron-schedule",
-      name: "react-cron-schedule",
-    },
-    REACT_RRULE_GENERATOR: {
-      url: "react-rrule-generator",
-      name: "react-rrule-generator",
+    MORE: {
+      url: "recurrence-more",
+      name: "more",
     },
   },
 };
